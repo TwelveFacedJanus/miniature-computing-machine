@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-12T17:50:51.805Z",
+  "rootPath": "/home/arch0nx/Documents/miniature-computing-machine/SourceFiles",
+  "summary": {
+    "totalFiles": 0,
+    "totalEdges": 0,
+    "totalLines": 0,
+    "languages": [],
+    "flowStages": {
+      "start": 0,
+      "main": 0,
+      "core": 0,
+      "helpers": 0
+    }
+  },
+  "files": []
+}

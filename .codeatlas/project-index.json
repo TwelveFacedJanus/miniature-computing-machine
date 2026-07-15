@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-12T17:49:55.766Z",
+  "rootPath": "/home/arch0nx/Documents/miniature-computing-machine",
+  "summary": {
+    "totalFiles": 2,
+    "totalEdges": 0,
+    "totalLines": 6,
+    "languages": [
+      "js"
+    ],
+    "flowStages": {
+      "start": 0,
+      "main": 1,
+      "core": 1,
+      "helpers": 0
+    }
+  },
+  "files": [
+    {
+      "path": "Build/CMakeFiles/CompileShaders.dir/compiler_depend.ts",
+      "fileType": "module",
+      "stage": "main",
+      "lang": "js",
+      "ext": ".ts",
+      "lines": 3,
+      "size": 118,
+      "collaboration": {
+        "status": "isolated",
+        "impact": "solo",
+        "summary": "No local collaboration links yet.",
+        "score": 0
+      },
+      "crossStageLinks": 0,
+      "impactScore": 0,
+      "isDeadCode": true,
+      "isOrphan": true,
+      "isCircular": false,
+      "hotspotScore": 1,
+      "hotspotLevel": "low",
+      "summary": "Main orchestration code. Type: module",
+      "functions": [],
+      "classes": [],
+      "exports": [],
+      "imports": [],
+      "usedBy": []
+    },
+    {
+      "path": "Build/CMakeFiles/MentalComputingEngine.dir/compiler_depend.ts",
+      "fileType": "module",
+      "stage": "core",
+      "lang": "js",
+      "ext": ".ts",
+      "lines": 3,
+      "size": 128,
+      "collaboration": {
+        "status": "isolated",
+        "impact": "solo",
+        "summary": "No local collaboration links yet.",
+        "score": 0
+      },
+      "crossStageLinks": 0,
+      "impactScore": 0,
+      "isDeadCode": true,
+      "isOrphan": true,
+      "isCircular": false,
+      "hotspotScore": 1,
+      "hotspotLevel": "low",
+      "summary": "Core business logic. Type: module",
+      "functions": [],
+      "classes": [],
+      "exports": [],
+      "imports": [],
+      "usedBy": []
+    }
+  ]
+}

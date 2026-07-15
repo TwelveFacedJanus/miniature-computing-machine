@@ -6,6 +6,7 @@
 #include <string>
 #include <memory>
 #include <optional>
+#include "LuaScript.h"
 
 namespace MentalGraphics
 {
@@ -50,6 +51,10 @@ public:
     
     // Name for debugging
     std::string name = "Unnamed";
+
+    std::shared_ptr<LuaScript> getScript() const { return _script; }
+    void setScript(const std::shared_ptr<LuaScript>& script) { _script = script; }
+    void setScriptFile(const std::string& filename);
     
     // ============================================
     // Constructors
@@ -263,6 +268,8 @@ public:
 private:
     std::vector<Vertex2D> _vertices;
     bool _dirty = false;
+    std::shared_ptr<LuaScript> _script;
+    std::string _scriptFile;
 };
 
 // ============================================
