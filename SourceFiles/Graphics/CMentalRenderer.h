@@ -188,9 +188,12 @@ private:
     VkPresentModeKHR chooseSwapPresentMode(const std::vector<VkPresentModeKHR>& availablePresentModes);
     VkExtent2D chooseSwapExtent(const VkSurfaceCapabilitiesKHR& capabilities);
     
-    // Helper functions
+    [[deprecated("Now MentalShaderMaterial have this private function implementation")]]
     VkShaderModule createShaderModule(const std::vector<char>& code);
+
+    [[deprecated("Now each shader module have private function implementation")]]
     std::vector<char> readFile(const std::string& filename);
+    
     void createBuffer(VkDeviceSize size, VkBufferUsageFlags usage, VkMemoryPropertyFlags properties, 
                       VkBuffer& buffer, VkDeviceMemory& bufferMemory);
     uint32_t findMemoryType(uint32_t typeFilter, VkMemoryPropertyFlags properties);
